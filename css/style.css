@@ -1,9 +1,940 @@
-.navbar {
-    outline : 2px red solid;
+
+.container1{
+    width: 1252px;
+    height: auto;
+    margin: auto;
 }
+/* ------------------------------------SECTION NAVBAR BEGINS ----------------------------------- */
+.main-container{
+    width: 100%;
+    height: 48px;
+}
+.navbar-brand {
+    width: 134px;
+    width: 145px;
+    height: 35px;
+}
+.navbar .navbar-brand img{
+    margin: 6px 0px;
+    width: 134px;
+    height: 36px;
+}
+.navbar-item{
+    font-size: 14px;
+    color: #5F6368;
+}
+.landd{
+    margin-top:10px;
+    width: 130px;
+}
+@media screen and (min-width : 768px){
+.navbar-brand iconify-icon{
+    display: none;
+}
+}
+@media screen and (max-width : 768px){
+    .navbar{
+        width: 390px;
+        height: 48px;
+        max-width: 100%;
+        /* position: relative; */
+        position: fixed;
+        top: 0;
+    } 
+    .navbar-start{
+        display: none;
+    }
+    .navbar-end{
+        display: none;
+    }
+    .navbar-brand .image1{
+        position: absolute;
+        left: 80px;
+        top: 10px;
+        width: 120px;
+        height: 40px;
+
+    }
+    .navbar-brand .image1 img{
+        object-fit: contain;
+    }
+    .navbar-brand .icon1 iconify-icon{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        padding: 0px;
+        top: 10px;
+        object-fit: cover;
+    }
+    .navbar .sign-in{
+        width: 80px;
+        height: 30px;
+        position: absolute;
+        right: 0px;
+        top: 20px;
+        font-size: 15px;
+    }
+}
+/* ----------------------------------SECTION NAVBAR ENDS--------------------------------------------- */
+
+/* --------------------------SECTION 01 - ANDROID FOR DEVELOPERS BEGINS-----------------------------  */
+.android-section{
+    width: 100%;
+    height: 582px;
+    background-color: #073042;
+}
+.section1 {
+    margin-top: 80px;
+    height: 100%;
+}
+.android-para {
+    padding-bottom: 4rem;
+    font-size: 1.5rem;
+}
+.searchbox {
+    width: 610px;
+    height: 36px;
+}
+.outer-container {
+    height: 100%;
+    padding-top: 80px;
+}
+.android-heading h1{
+    font-size: 64px;
+}
+.home-main-image{
+    position: relative;
+    top: 60px;
+}
+.home-main-image img{
+    object-fit: cover;
+    
+}
+@media screen and (max-width : 768px){
+    .searchbox{
+        width: 342px;
+        height: 36px;
+    }
+    .home-main-image{
+        display: none;
+    }
+    .container1{padding:20px 15px 10px 15px}
+    .android-section{ height: 406px; width: 390px;}
+    .android-heading h1{font-size: 40px; height: 90px; margin-top: 0;  line-height: 1;}
+    .android-para {font-size: 20px; padding-bottom: 20px;}
+}
+ /* --------------------------SECTION 01 - ANDROID FOR DEVELOPERS ENDS-----------------------------  */
+
+/* --------------------------------SECTION DOWNLOAD - LAUNCH- VIEW - BEGINS---------------------------------- */
 .download-launch-view{
-    outline : 2px red solid;
+    padding: 56px 0px;
 }
-.container{
-    outline : 2px red solid;
+.dlv-box{
+    width: 396px;
+    height: 88px;
+    background-color: #D7EFFE;
 }
+.dlv-box .content-box{
+    padding: 20px;
+}
+.dlv-box .content-box img{
+    margin-right: 20px;
+}
+.second-div{
+    width: 100%;
+    margin-top: 15px;
+    position: relative;
+} 
+.icon3{
+    width: 24px;
+    height: 24px;
+}
+@media screen and (max-width : 768px){
+    .container1{
+        width: 390px;
+    }
+    .download-launch-view{
+        padding: 32px 0px;
+    }
+    .dlv-boxes{
+        display : flex;
+        flex-direction: column;
+        max-width:100%;
+        height: 260px;
+    }
+    .dlv-box{
+        width: 100%;
+        height: 76px;
+    }
+    .dlv-box .content-box{
+        padding: 14px 18px;
+        width: 358px;
+        height: 76px;
+    }
+    .dlv-box .content-box .second-div h2{
+        font-size: 16px;
+    }      
+    .dlv-box .content-box .title{
+        position: relative;
+        top: -1px;
+    }
+}
+/* --------------------------------SECTION DOWNLOAD - LAUNCH- VIEW - ENDS------------------------------------ */
+
+/* ----------------------------------SECTION FEATURED BOXES BEGINS---------------------------------------- */
+.featured-boxes{
+    max-width: 100%;
+    margin: auto;
+    margin: 0px 216px;
+    padding: 0px 64px;
+    height: 574px;
+}
+.featured-box{
+    width: 610px;
+    height: 518px;
+}
+.featured-box .left-box-content{
+    background-color: #073042;
+    width: 100%;
+    height: 100%;
+}
+.featured-box .right-box-content{
+    background-color: #D7EFFE;
+    width: 100%;
+    height: 100%;
+}
+.left-side-text {
+    width: 50%;
+}
+.read-now-button{
+    padding-top: 150px;
+}
+.read-now-button button{
+    color: white;
+    background-color: #073042;
+    border-width: 2px;
+    font-weight: 400;
+}
+.right-side-image1{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+.right-side-image2{
+    position: relative;
+    top: 25%;
+    width: 250px;
+    height: 250px;
+}
+.right-side-image2 img{
+    object-fit: cover;
+}
+.read-more-button{
+    padding-top: 35px;
+}
+.read-more-button button{
+    color: black;
+    background-color: #D7EFFE;
+    border-color: black;
+    border-width: 2px;
+    font-weight: 400;
+}
+.featured-boxes a  button:hover{
+    
+    background-color: white;
+    color: #073042;
+    border: none;
+}
+@media screen and (max-width : 768px){
+    .featured-boxes{
+       max-width: 100%;
+       height: 1050px;
+       display: flex;
+       padding: 0px 16px;
+       flex-direction: column;
+       margin: 0px;
+       justify-content: space-between;
+    }
+    .featured-boxes .featured-box{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .featured-box .left-box-content{
+        width: 358px;
+        height: 475px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .left-side-text{
+        width: 100%;
+        height: auto;
+    }
+    .featured-box .right-side-image1{
+        width: 128px;
+        height: 128px;
+        position: relative;
+        left: 180px;
+    }
+    .featured-box .right-side-image1 img{
+        width: 128px;
+        height: 128px;
+    }
+    .read-now-button{
+        padding-top: 10px;
+    }
+    .read-now-button button{
+        width: 100%;
+    }
+    .text1{
+        height: auto;
+    }
+    .text2{
+        font-size: 16px;
+        }
+    .right-box-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-box-content .text2{
+        font-size: 16px;
+        height: auto;
+    }
+    .read-more-button {
+        width: 100%;
+    } 
+    .read-more-button button {width: 100%;}
+    .right-side-image2 {
+        width: 128px;
+         height: 128px; 
+        position: relative;
+        left: 180px;
+    }
+    
+   
+}
+/* -----------------------------------SECTION FEATURED BOXES ENDS------------------------------------------------------- */
+
+/* ---------------------------------------SECTION PLATFORM UPDATES BEGINS------------------------------------------------ */
+
+.pu-main{
+    max-width: 100%;
+    height: 1245.5px;
+    padding: 80px 0px;
+}
+.platform-updates-container{
+    margin: 0px 216px;
+    padding: 0px 64px;
+}
+.platform-updates{
+    width: 289px;
+    height: 1085.5px;
+}
+.topic{
+    width: 289px;
+    height: auto;
+    font-size: 40px;
+    line-height: 1.2;
+}
+.content{
+    color: #303c43;
+    font-size: 16px;
+}
+.platform-updates button{
+    width: auto;
+    height: 48px;
+    border: none;
+    background-color: #3DDC84;
+}
+.platform-updates-container .right-side-boxes {
+    width: 824px;
+    height: 1085.5px;
+}
+.platform-updates-container .right-side-boxes .child-box{
+    width: 396px;
+    height: 514px;
+}
+.child-box h3{
+    color: #073042;
+    font-size: 32px;
+    font-weight: bold;
+}
+.child-box h3:hover{
+    color:#1769E0;
+}
+.picture1{
+    width: 396px;
+    height: 222.75px;
+    margin-bottom: 24px;
+}
+.picture1 img{
+    object-fit: cover;
+    width: 396px;
+    height: 222.75px;
+}
+.blog-text1{
+    font-size: 14px;
+}
+
+.topic1 {
+    width: 396px;
+    height: auto;
+    color: #073042;
+    font-size: 30px;
+    line-height: 1.2;
+}
+.content1{
+    color: #303c43;
+    font-size: 16px;
+}
+.tools-updates{
+    height: 475px;
+    padding: 0%;
+    margin: 0%;
+}
+
+@media screen and (max-width : 768px){
+    .pu-main{
+        height: 2097px;
+        padding: 0px 16px;
+        display: flex;
+        position: relative;
+        top:50px;
+        flex-direction: column;
+    }
+    .platform-updates-container{
+        width: 358px;
+        height: 280px;
+        margin: auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top:20px;
+    }
+    .platform-updates{
+        height: 280px;
+        width: 358px;
+    }
+    .platform-updates-container .topic{
+        height: 40px;
+        font-size: 32px;
+    }
+    .platform-updates-container .button {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .platform-updates-container .button{
+        width: 100%;
+        position: relative;
+        bottom: 20px;
+    }
+    .right-side-boxes{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 2000px;
+        position: relative;
+        flex-wrap: nowrap;
+    }    
+    .child-box{
+        max-width: 100%;
+        height: 450;
+        margin-bottom: 50px;
+    }
+    .child-box .num-one{
+        height: 420px;
+    }
+    .child-box .picture1{
+        width: 358px;
+        height:202px;
+        padding: 0px;
+    }
+    .child-box .picture1 img{object-fit: contain;}
+    .child-box  h3{font-size: 22px; width: 358px; height: auto; padding: 0; margin: 0;}
+    .child-box .content1{  font-size: 14px; padding-bottom: 5px;}
+
+    .num-two{
+        position: absolute;
+        top : 430px;
+        margin-bottom: 0px;
+    }
+    .num-three{
+        position: absolute;
+        top : 820px;
+    }
+    .num-four{
+        position: absolute;
+        top:1250px;
+    }
+    .tools-updates{
+        max-width: 100%;
+        position: relative;
+        top: -50px;
+    }
+    .tools-updates .platform-updates-container{
+        margin: 0px 16px;
+    }
+    .tools-updates .right-side-boxes{
+        width: 390px;
+        height: auto;
+        position: relative;
+        top: 50px;
+    }
+    .tools-updates .right-side-boxes .box-one{ }
+    .tools-updates .right-side-boxes .box-two{position: relative; top:-140px;height: auto; }
+    .tools-updates .right-side-boxes .child-box  .picture1{height: 202px;}
+    .tools-updates .right-side-boxes .child-box .picture1 img{ object-fit: contain;height: 202px;}
+
+    .latest-news{
+        position: relative;
+        top:500px;
+    }
+    .latest-news-boxes{
+        position: relative;
+        width: 358px;
+        height: auto;
+        margin: auto;
+    }
+    .latest-news-boxes .picture1{ width: 358px; height: 202px;}  
+    .latest-news-boxes .picture1 img{width: 358px; height: 202px; object-fit: cover;}
+    .latest-news-boxes .box-one{
+        position: absolute;
+        height: 500px;
+    }
+    .latest-news-boxes .box-two{
+        position: absolute;
+        top: 350px;
+        height: 500px;
+    }
+    .latest-news-boxes .box-three{
+        position: absolute;
+        top : 750px;
+        height: 500px;
+
+
+
+    }
+    .latest-news-boxes .box-four{
+        position: absolute;
+        top:1100px;
+        height: 500px;
+    }
+    .latest-video{
+        position: relative;
+        top:150px
+    }
+    .latest-video .box-one{}
+    .latest-video .box-two{}
+}
+/* ---------------------------------------SECTION PLATFORM UPDATES ENDS------------------------------------------------ */
+
+/* -----------------------------------SECTION EXPLORE MORE BEGINS--------------------------------- */
+.boxes-em{
+    margin-top: 56px;
+    position: relative;
+    top:200px;
+}
+.boxes-em .box-explore-more1{
+    position: relative;
+    height: 400px;
+    width: 289px;
+    padding: 35px;
+    background-color: #073042;
+}
+.boxes-em .box-explore-more2{
+    position: relative;
+    height: 400px;
+    width: 289px;
+    padding: 35px;
+    background-color: #073042;
+}
+.boxes-em .box-explore-more3{
+    position: relative;
+    height: 400px;
+    width: 289px;
+    padding: 35px;
+    background-color: #073042;
+}
+.boxes-em .box-explore-more4{
+    position: relative;
+    height: 400px;
+    width: 289px;
+    padding: 35px;
+    background-color: #073042;
+}
+.boxes-em .text-content .heading1{
+    padding-bottom: 15px;
+}
+.boxes-em  .text-content .heading1 a{
+    color: white;
+}
+.boxes-em .text-content .heading1 a:hover{
+    color: #4285f4;
+}
+
+.boxes-em  figure{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+@media screen and (max-width : 768px){
+    .container1 .em-text{
+        font-size: 32px;
+        height: 40px;
+        position: relative;
+        margin-top: 200px;
+    }
+    .container1 .em-text h2{
+        font-size: 32px;
+    }
+    .boxes-em{
+        position: relative;
+        top:500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 35px 0px;
+    }
+    .container1 .em-text {
+        font-size: 32px;
+    }
+   .container1 h2{
+        font-size: 32px;
+        height: 40px;
+        position: relative;
+        top: 550px;
+    }
+    .boxes-em .box-explore-more{
+        width: 358px;
+        height: auto;
+        padding: 25px 15px 25px 25px;
+        margin-bottom: 20px;
+        position: relative;
+
+    }
+    .boxes-em .box-explore-more1{
+        width: 100%;
+        height: 216px;
+        margin-bottom: 15px; 
+        padding: 20px;
+        position: relative;
+  
+    }
+    .boxes-em .box-explore-more2{
+        width: 100%;
+        height: 168px;
+        padding: 0px;
+        margin-bottom: 15px; 
+        padding: 20px;
+        position: relative;
+    }
+    .boxes-em .box-explore-more3{
+        width: 100%;
+        height: 168px;
+        padding: 0px;
+        margin-bottom: 15px; 
+        padding: 20px;
+        position: relative;
+    }
+    .boxes-em .box-explore-more4{
+        width: 100%;
+        height: 200px;
+        padding: 0px;
+        margin-bottom: 15px; 
+        padding: 20px;
+        position: relative;
+    }
+    .text-content{
+        width: 65%;
+    }
+
+    .text-content .heading1{
+        width: 100%;
+        margin: 0;
+        height: 100%;
+        font-weight: bold;
+        padding: 10px 0px;
+    }
+    .text-content .heading1 a{
+        color: #FFFFFF;
+        font-size: 22px;
+    }
+   
+   .text-content .heading1 a{
+        font-size: 22px;    
+    }  
+    .text-content .description1{
+        font-size: 16px;
+    }
+    .boxes-em img{
+        position: relative;
+        left:0px;
+    }
+   
+}
+
+/* -----------------------------------SECTION EXPLORE MORE ENDS----------------------------------- */
+
+
+/* ---------------SECTION VISIT OUR COMMUNITY BEGINS--------------------- */
+.visit-our-community{
+    position: relative;
+    top:700px;
+    padding: 80px 0px;
+}
+.voc-boxes{
+    margin-top: 56px;
+    position: relative;
+}
+.voc-box{
+    width: 396px;
+    height: 376px;
+    background-color: #eff7cf;
+    padding:30px;
+    margin-top: 56px;
+}
+.voc-box .link1{
+    position: absolute;
+    bottom: 40px;
+
+}
+.container1 .text2{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+@media screen and (max-width : 768px){
+    .container1 .text2{
+        font-size: 32px;
+        height: 40px;
+    }
+    .visit-our-community{
+        height: 1184px;
+        width: 396px;
+    }
+    .text2 title is-2{
+        font-size: 32px;
+        width: 358px;
+        height: 40px;       
+    }
+    .voc-boxes{
+        display: flex;
+        top: 10px;
+        flex-direction: column;
+    }
+    .voc-boxes .voc-box{
+        width: 100%;
+        padding: 15px 30px 15px 15px;
+        margin-top: 15px;
+        position: relative;
+    }
+    .voc-box .link1{
+        position: absolute;
+        bottom: 30px;
+        color: #4285f4;
+        font-weight: bold;
+    }
+}
+/* ---------------SECTION VISIT OUR COMMUNITY ENDS----------------------- */
+
+/* --------------------SECTION FOOTER 01 BEGINS------------------------------------- */
+
+.footer-container1{
+    width: 1764px;
+    height: 213px;
+    margin: auto;
+    padding: 18px 0px;
+    border-top: 0.5px gainsboro solid;
+    border-bottom: 0.5px gainsboro solid;
+
+}
+.medias{
+    width: 192px;
+    height: 136px;
+    margin: 20px 0px;
+    font-size: 14px;
+    text-align: center;
+}
+.medias .media-image{
+    width: 48px;
+    height: 48px;
+    margin: 0px 76px;
+}
+.medias .media-image img{
+    width: 48px;
+    height: 48px;
+    margin: auto;
+}
+.medias .media-name{
+    height: 15px;
+    margin: auto;    
+}
+@media screen and (max-width : 768px){
+    .footer-container1{
+        position: relative;
+        top: 920px;
+        height: 169px;
+        width: 358px;
+        margin: auto;
+    }
+    .footer-container1 .socail-medias{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-container1 .socail-medias .medias{
+        display: flex;
+        width: 358px;
+        height: 48px;
+        margin: 0;
+    }
+    .footer-container1 .socail-medias .medias .media-image{width:32px; height: 32px; padding: 0; margin: 0;}
+    .footer-container1 .socail-medias .medias .media-image img{width: 32px; height: 32px; object-fit: contain;}
+    .footer-container1 .socail-medias .medias .media-name{ margin: 0px; padding-left: 15px;}
+    .footer-container1 .socail-medias .medias .media-description{display: none;}
+}
+
+/* --------------------SECTION FOOTER 01 ENDS--------------------------------------- */
+/* --------------------SECTION FOOTER 02 BEGINS--------------------------------------- */
+
+.footer-container2{
+    width: 1812px;
+    height: 301px;
+    padding: 24px 24px;
+    color: #5F6368;
+    font-size: 14PX;
+    font-size: 14px;
+    border-bottom: 0.5px gainsboro solid;
+}
+.divisons {
+    width: 274px;
+    height: 252px;
+}
+.main-heading{
+    max-width: 100%;
+    height: 20px;
+    margin-bottom: 8px;
+}
+.sub-heading{
+    height: 35px;
+}
+.sub-heading a{
+    height: 32px;
+    max-width: 100%;
+    color: #202124;
+}
+.sub-heading a:hover{
+    color: #1769E0;
+}
+@media screen and (max-width : 768px){
+    .footer-container2{
+        position: relative;
+        top: 920px;
+        height: 1393px;
+        width: 358px;
+        padding: 0px;
+        margin: auto;    
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* --------------------SECTION FOOTER 02 ENDS--------------------------------------- */
+
+/* --------------------SECTION FOOTER 03 BEGINS--------------------------------------- */
+
+.footer-container3{
+    width: 1764px;
+    height: 80px;
+    margin: auto;
+    padding : 24px 0px 23px;
+    border-bottom: 0.5px gainsboro solid;
+}
+.google-dev-image{
+    width: 185px;
+    height: 32px;
+}
+.google-dev-image img{
+    object-fit: cover;
+}
+.space-div{
+    width: 32px;
+    height: 32px;
+}
+.contents{
+    width: 527px;
+}
+@media screen and (max-width : 768px){
+    .footer-container3{
+        position: relative;
+        top: 920px;
+        height: 255px;
+        width: 358px;
+        padding: 0px;
+        margin: auto;    
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-container3 .contents{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* --------------------SECTION FOOTER 03 ENDS--------------------------------------- */
+
+/* --------------------SECTION FOOTER 04 BEGINS--------------------------------------- */
+
+
+.footer-container4{
+    width: 1764px;
+    height: 96px;
+    padding: 24px 24px;
+    
+}
+.inner-footer{
+    width: 1626px;
+    height: 48px;
+    
+}
+.inner-item{
+    padding-top: 10px;
+}
+.inner-item3{
+    width: 900px;
+}
+.text-get-news{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.inner-item4 button{
+    width: 128px;
+    height: 48px;
+    border: none;
+    background-color: #3DDC84;
+}
+@media screen and (max-width : 768px){
+    .footer-container4{
+        position: relative;
+        top: 920px;
+        height: 180px;
+        width: 358px;
+        padding: 0px;
+        margin: auto;    
+    }
+    .inner-footer .inner-item4 {
+        padding: 0px;
+        position: relative;
+        top:40px;
+        right: 1155px;
+    }
+    .landd{
+        position: relative;
+        top:80px;
+        right:1500px;
+    }
+
+}
+/* --------------------SECTION FOOTER 04 ENDS--------------------------------------- */
