@@ -99,9 +99,7 @@
     height: 100%;
     padding-top: 80px;
 }
-.android-heading h1{
-    font-size: 64px;
-}
+
 .home-main-image{
     position: relative;
     top: 60px;
@@ -114,13 +112,17 @@
     .searchbox{
         width: 342px;
         height: 36px;
+        position: relative;
+        left: 20px;
     }
     .home-main-image{
         display: none;
     }
+    .android-heading{margin-top: 0;}
+   
     .container1{padding:20px 15px 10px 15px}
     .android-section{ height: 406px; width: 390px;}
-    .android-heading h1{font-size: 40px; height: 90px; margin-top: 0;  line-height: 1;}
+    .android-heading h1{font-size: 40px; height: 90px; margin-top: 40px;  line-height: 1;}
     .android-para {font-size: 20px; padding-bottom: 20px;}
 }
  /* --------------------------SECTION 01 - ANDROID FOR DEVELOPERS ENDS-----------------------------  */
@@ -152,6 +154,7 @@
 @media screen and (max-width : 768px){
     .container1{
         width: 390px;
+        padding: 0;
     }
     .download-launch-view{
         padding: 32px 0px;
@@ -319,11 +322,13 @@
 
 /* ---------------------------------------SECTION PLATFORM UPDATES BEGINS------------------------------------------------ */
 
+
 .pu-main{
     max-width: 100%;
     height: 1245.5px;
     padding: 80px 0px;
 }
+.latest-news { margin-top: 200px; height: auto;}
 .platform-updates-container{
     margin: 0px 216px;
     padding: 0px 64px;
@@ -589,11 +594,13 @@
         margin-top: 200px;
     }
     .container1 .em-text h2{
-        font-size: 32px;
+        font-size: 16px;
     }
     .boxes-em{
         position: relative;
-        top:500px;
+        top:550px;
+        left:15px;
+        width:358px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -601,6 +608,8 @@
     }
     .container1 .em-text {
         font-size: 32px;
+        position: relative;
+        left: 15px;
     }
    .container1 h2{
         font-size: 32px;
@@ -660,7 +669,6 @@
         padding: 10px 0px;
     }
     .text-content .heading1 a{
-        color: #FFFFFF;
         font-size: 22px;
     }
    
@@ -683,8 +691,9 @@
 /* ---------------SECTION VISIT OUR COMMUNITY BEGINS--------------------- */
 .visit-our-community{
     position: relative;
-    top:700px;
+    top:0px;
     padding: 80px 0px;
+
 }
 .voc-boxes{
     margin-top: 56px;
@@ -714,7 +723,10 @@
     }
     .visit-our-community{
         height: 1184px;
-        width: 396px;
+        width: 390px;
+        position: relative;
+        top : 750px;
+
     }
     .text2 title is-2{
         font-size: 32px;
@@ -723,7 +735,7 @@
     }
     .voc-boxes{
         display: flex;
-        top: 10px;
+        top: 50px;
         flex-direction: column;
     }
     .voc-boxes .voc-box{
@@ -833,12 +845,15 @@
     .footer-container2{
         position: relative;
         top: 920px;
-        height: 1393px;
+        height: 1500px;
         width: 358px;
         padding: 0px;
         margin: auto;    
         display: flex;
         flex-direction: column;
+    }
+    .divisons{
+        margin-bottom: 40px;
     }
 }
 
@@ -870,8 +885,8 @@
 @media screen and (max-width : 768px){
     .footer-container3{
         position: relative;
-        top: 920px;
-        height: 255px;
+        top: 950px;
+        height: 200px;
         width: 358px;
         padding: 0px;
         margin: auto;    
@@ -918,11 +933,12 @@
 @media screen and (max-width : 768px){
     .footer-container4{
         position: relative;
-        top: 920px;
+        top: 950px;
         height: 180px;
         width: 358px;
         padding: 0px;
         margin: auto;    
+
     }
     .inner-footer .inner-item4 {
         padding: 0px;
@@ -933,7 +949,7 @@
     .landd{
         position: relative;
         top:80px;
-        right:1500px;
+        right:1490px;
     }
 
 }
