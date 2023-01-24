@@ -166,9 +166,10 @@
         height: 260px;
     }
     .dlv-box{
-        width: 100%;
+        width: 358px;
+        margin: auto;
         height: 76px;
-    }
+        }
     .dlv-box .content-box{
         padding: 14px 18px;
         width: 358px;
@@ -355,7 +356,8 @@
 }
 .platform-updates-container .right-side-boxes {
     width: 824px;
-    height: 1085.5px;
+    /* height: 1085.5px; */
+    height: auto;
 }
 .platform-updates-container .right-side-boxes .child-box{
     width: 396px;
@@ -530,7 +532,8 @@
     }
     .latest-video{
         position: relative;
-        top:150px
+        top:170px
+        
     }
     .latest-video .box-one{}
     .latest-video .box-two{}
@@ -540,8 +543,6 @@
 /* -----------------------------------SECTION EXPLORE MORE BEGINS--------------------------------- */
 .boxes-em{
     margin-top: 56px;
-    position: relative;
-    top:200px;
 }
 .boxes-em .box-explore-more1{
     position: relative;
@@ -720,13 +721,14 @@
     .container1 .text2{
         font-size: 32px;
         height: 40px;
+
     }
     .visit-our-community{
         height: 1184px;
-        width: 390px;
+        width:358px;
+        margin: auto;
         position: relative;
         top : 750px;
-
     }
     .text2 title is-2{
         font-size: 32px;
@@ -736,6 +738,7 @@
     .voc-boxes{
         display: flex;
         top: 50px;
+        width: 358px;
         flex-direction: column;
     }
     .voc-boxes .voc-box{
@@ -929,6 +932,11 @@
     height: 48px;
     border: none;
     background-color: #3DDC84;
+}
+
+.inner-footer .landd {
+    position: relative;
+    left: 50px;
 }
 @media screen and (max-width : 768px){
     .footer-container4{
